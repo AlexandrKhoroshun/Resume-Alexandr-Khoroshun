@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(201, 252, 252);
+    color: #0d263d;
+    font: normal 16px 'Raboto', sans-serif;
+    line-height: 20px;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+.avatar{
+    width:  400px;
+    height: 330px;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    padding-left: 10px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h2{
+    color: rgb(35, 39, 41);
+    text-decoration: underline;
+}
+
+.info{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+@media (max-width:600px){
+            
+    .info{
+        display: block;
+        text-align: center;
+    }
+
+    .info-text{
+       width: 600px; 
+    }
+}
+
+.card01{
+    color: rgb(53, 40, 23);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: inherit;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.card02{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(164, 248, 248);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.card03{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
+    border-radius: 5px;
+    background-color: rgb(186, 228, 245);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.card04{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(177, 245, 194);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.card02 a{
+    color: rgb(2, 75, 185);
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(3, 3, 3);
+}
+
+a:visited{
+    color: grey;
+}
+
+.card01:hover{
+    background-color: aqua;
+}
+
+.card02:hover{
+    background-color: aqua;
+}
+
+.card03:hover{
+    background-color: aqua;
+}
+
+.card04:hover{
+    background-color: aqua;
+}
+
+.btn{
+    background-color: rgb(247, 161, 3);
+    color: #000;
+    font-size: 15px;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    color: rgb(17, 0, 255);
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom:3px solid greenyellow;
+}
+
+#table01{
+    width: 100%;
+}
+
+#table01 td{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#table01 tr:hover{
+    background-color: rgb(235, 235, 247);
+}
+    
+.navbar{
+    width: 750px;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0px 40px;
+}
+
+.navbar ul li{
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul li:last-child{
+    margin-right: 0;
+}
+
+.navbar ul li:hover{
+    background-color: rgb(176, 253, 182);
+}
+
+.form01{
+    text-align: center;
+}
+
+.form02 label{
+    display: block;
+    font-size: 15px;    
+    color: #000;
+}
+
+.form02 input, .form02 textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(148, 146, 146);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form03 input, .form03 textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(148, 146, 146);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row, .form02{
+    margin-right: 20px;
+    width: 100%;
+}
+
+.form-row, .form02:last-child{
+    margin-right: 0;
+}
